@@ -1,5 +1,14 @@
+' NAME:	Aliquote number generator
+' AUTHOR: Henrik Vestin Uppsala Biobank
+' DATE: 2021 04 01
+' HISTORY: 1.0 initial version
+'		   
+'		   
+' COMMENT: Simple makro to generate aliquote numbers for a specific column by comparing a value from KEY-Column
+'          
+'==================================================================
 Sub
-'Option Explicit 'Alla variabler måste sättas med Dim eller ReDim
+    'Option Explicit 'All variables must be declared
 
 Dim Row As Integer
 Dim Key As String
