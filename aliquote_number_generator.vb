@@ -25,7 +25,7 @@ aliquoteValue = 0
 previousKeyValue = ""
 currentKeyValue = Key
 'Set active cell
-'ActiveSheet.Range("B2").Activate()
+    'ActiveSheet.Range("B2").Activate() 'not needed since script works as intended without it
 
 'Run until Key column is empty
 Do Until Key = ""
@@ -45,7 +45,7 @@ Do Until Key = ""
     'update variable with current value
     previousKeyValue = currentKeyValue
     'select the next cell to be updated.
-    'ActiveCell.Offset(1, 0).Select()
+        'ActiveCell.Offset(1, 0).Select() 'not needed since script works as intended without it
 
     Row = Row + 1
     'Set next cell in key column
